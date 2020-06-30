@@ -1,0 +1,59 @@
+.body {
+    margin: 40px calc( (100% - 800px) / 2 );
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .header {
+        width: 800px; 
+    }
+        .img {
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .navigation {
+            display: inline-block; 
+            float: right;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+            .link {
+                margin-left: 40px;
+                text-decoration: none;
+                color: gray;
+            }
+    .main {
+        display: inline-block; 
+        margin-top: 20px;
+    }
+        .textas {
+            display: inline-block; 
+            width: 35%; float: left; 
+            margin-top: 50px;
+        }
+            .antraste {
+                size: 80px;
+                text-transform: capitalize;
+
+            }
+            .paragrafas {
+                font-size: 17px;
+
+            }
+        .pagrindine {
+            display: inline-block; 
+            width: 60%; 
+            float: right;
+        }
+
+.mygtukas {
+    display: inline-block; 
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 24px;
+}
+    .mygtukas-platus {
+        display: inline-block; 
+        text-align: center;
+        margin-top: 20px;
+    }

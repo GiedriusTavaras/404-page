@@ -4,10 +4,12 @@
 }
     .header {
         width: 800px; 
+        position: absolute;
     }
         .img {
             display: inline-block;
-            margin-left: 20px;
+            margin-left: 1px;
+            margin-top: 5px;
         }
         .navigation {
             display: inline-block; 
@@ -20,9 +22,13 @@
                 text-decoration: none;
                 color: gray;
             }
+            .link:hover {
+                color: rgb(94, 93, 93);
+                box-shadow: 0px 0px 3px gray;
+            }
     .main {
         display: inline-block; 
-        margin-top: 20px;
+        margin-top: 60px;
     }
         .textas {
             display: inline-block; 
@@ -49,11 +55,21 @@
     text-decoration: none;
     background-color: blue;
     color: white;
-    padding: 7px;
+    padding: 10px;
     border-radius: 24px;
 }
+    .mygtukas:hover {
+        background-color: #3F4CA8;
+        color: white;
+    }
     .mygtukas-platus {
         display: inline-block; 
         text-align: center;
         margin-top: 20px;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    .mygtukas-platus:hover {
+        background-color: #3F4CA8;
     }

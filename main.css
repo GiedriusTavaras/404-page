@@ -1,75 +1,85 @@
 .body {
-    margin: 40px calc( (100% - 800px) / 2 );
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./img/fonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-    .header {
-        width: 800px; 
-        position: absolute;
+    .all {
+        display: inline-block;
+        width: 800px;
+        margin-left: calc(50% - 400px);
+        margin-top: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
     }
-        .img {
+        .header {
             display: inline-block;
-            margin-left: 1px;
-            margin-top: 5px;
+            width: 800px;
+            margin-left: calc(50% - 400px);
+            background-color: white;
         }
-        .navigation {
-            display: inline-block; 
-            float: right;
-            margin-left: 20px;
-            margin-top: 10px;
-        }
-            .link {
-                margin-left: 40px;
-                text-decoration: none;
-                color: gray;
+            .logo {
+                display: inline-block;
+                margin-left: 20px;
+                margin-top: 30px;
             }
-            .link:hover {
-                color: rgb(94, 93, 93);
-                box-shadow: 0px 0px 3px gray;
+            .nuorodos {
+                display: inline-block;
+                margin-top: 15px;
+                margin-left: 215px;
             }
-    .main {
-        display: inline-block; 
-        margin-top: 60px;
-    }
-        .textas {
-            display: inline-block; 
-            width: 35%; float: left; 
-            margin-top: 50px;
+                .a {
+                    display: inline-block;
+                    margin-left: 30px;
+                    text-decoration: none;
+                    color: #9C9C9C;
+                }
+                    .a:hover {
+                        color:black;
+                    }
+        .main {
+            display: inline-block;
+            background-color: white;
+            margin-top: 15px;
         }
-            .antraste {
-                size: 80px;
-                text-transform: capitalize;
+            .text {
+                display: inline-block;
+                width: 40%;
+                float: left;
+                margin-top: 50px;
+                font-size: 20px;
+                line-height: 27px;
+            }
+                .antraste {
+                    display: inline-block;
+                    line-height: 45px;
+                    font-size: 38px;
+                    margin-bottom: -3px;
+                    margin-left: 20px;
+                }
+                .lorem {
+                    display: inline-block;
+                    color: #A1A1A1;
+                    margin-left: 20px;
+                }
+            .pagrindine {
+                display: inline-block;
+                width: 60%;
+                float: right;
+            }
 
-            }
-            .paragrafas {
-                font-size: 17px;
-
-            }
-        .pagrindine {
-            display: inline-block; 
-            width: 60%; 
-            float: right;
-        }
-
-.mygtukas {
-    display: inline-block; 
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    border-radius: 24px;
-}
-    .mygtukas:hover {
-        background-color: #3F4CA8;
-        color: white;
-    }
-    .mygtukas-platus {
-        display: inline-block; 
-        text-align: center;
-        margin-top: 20px;
-        padding: 10px 20px;
-        color: white;
+    .mygtukas {
+        color:white;
         text-decoration: none;
+        padding: 10px;
+        background-color: #5811F3;
+        border-radius: 22px;
     }
-    .mygtukas-platus:hover {
-        background-color: #3F4CA8;
+        .mygtukas-platesnis {
+            padding: 10px 50px;
+            margin-left: 20px;
+        }
+    .mygtukas:hover {
+        background-color: #4B46A0;
+        color: black;
+        box-shadow: 5px 5px 5px gray;
     }
